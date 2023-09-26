@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Sedgwick+Ave+Display&family=Teko&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    font-family: 'Lilita One', cursive;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: rgb(240, 239, 243);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.container{
+    width:380px;
+    height: 550px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 4px 4px 30px rgba(0,0,0,0.3);
+    padding: 15px;
+    overflow-y: scroll;
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
+
+.container form{
+    width: 100%;
+    margin-top: 12px;
+    border: 3px solid #565d73;
+    border-radius: 6px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.container form input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600px;
+    padding: 8px 10px;
+    margin-right: 10px;
+}
+
+.container form i{
+    padding-left: 10px;
+}
+
+.product-list{
+    padding: 20px 0;
+    
+}
+
+.product{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border: 5px;
+    border-radius: 4px;
+    box-shadow:2px 2px 5px rgba(0,0,0,0.3);
+
+}
+.product:hover{
+    box-shadow:2px 2px 10px rgba(0,0,0,0.3);
+    transform: scaleX(105%)
+}
+
+.product img{
+    margin-top: 10px;
+    width: 70px;
+    border-radius: 5px;
+    
+    height: 70px;
+    object-fit: cover;
+}
+.product .p-details h2{
+    font-size: 20px;
+    
+    
+}
+.product .p-details{
+    padding-left: 15px;
+}
+
+.product .p-details h3{
+    font-size: 18px;
+    color: rgb(96, 113, 113);
+}
+
+
